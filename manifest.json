@@ -4,7 +4,7 @@
   "version": "1.0.7",
   "author": "Nils Maier",
   "homepage_url": "https://github.com/nmaier/tabtools",
-  "description": "Manage tabs",
+  "description": "Helps you manage your tabs a little bit",
 
   "icons": {
     "32": "icon.svg",

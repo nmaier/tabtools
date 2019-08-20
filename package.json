@@ -19,7 +19,8 @@
       "yarn*",
       "package.json",
       "src/",
-      ".git/"
+      ".git/",
+      "screenshot.png"
     ]
   }
 }
