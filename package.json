@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "psl": "^1.3.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "web-ext": "^3.1.1",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  },
+  "scripts": {
+    "build": "webpack && web-ext build"
+  },
+  "webExt": {
+    "ignoreFiles": [
+      ".eslint.js",
+      "webpack.config.js",
+      ".gitignore",
+      "yarn*",
+      "package.json",
+      "src/",
+      ".git/"
+    ]
+  }
+}

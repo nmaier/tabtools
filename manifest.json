@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Tab Tools",
+  "version": "1.0.7",
+  "author": "Nils Maier",
+  "homepage_url": "https://github.com/nmaier/tabtools",
+  "description": "Manage tabs",
+
+  "icons": {
+    "32": "icon.svg",
+    "48": "icon.svg",
+    "64": "icon.svg",
+    "128": "icon.svg"
+  },
+
+  "permissions": [
+    "tabs",
+    "menus"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "tabtools@tn123.org"
+    }
+  }
+}
